@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Aprendendo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div></div>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Trabalhe conosco</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <form name="form" id="form_js">
+            <input type="text" name="nome" placeholder="nome" required="required">
+            <label for="nome">Nome</label>
+
+            <input type="text" name="email" placeholder="email" required="required">
+            <label for="email">Email</label>
+
+            <input type="text" name="cpf" placeholder="cpf" required="required">
+            <label for="cpf">Cpf</label>
+
+            <textarea placeholder=""></textarea>
+
+            <button onclick="enviar_dados()">Enviar</button>
+        </form>
+    </header>
+
+    <script src="forms.js"></script>
+    
+</body>
+</html>

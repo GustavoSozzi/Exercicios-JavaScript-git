@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valida cpf com classes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div>
+        <div id="cabecalho">
+
+            <h1>Entre em contato</h1>
+
+            <form>
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nomeid" placeholder="Nome" required="required" pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" name="nome">
+                </div>
+                
+                <div>
+                    <label for="idade">Idade</label>
+                    <input type="text" id="idadeid" placeholder="Idade" pattern="[0-9]+$" name="idade">
+                </div>
+                
+                <div id="cpf">
+                    <label for="Cpf">CPF</label>
+                    <input type="text" id="cpfid" placeholder="CPF" name="cpf">
+                </div>
+                
+                <div>
+                    <input type="button" class="enviar" onclick="Obter_dados()"  value="Enviar">
+                </div>
+            </form>
+
+            <div id="mostra_resultados"></div>
+
+        </div>
+    </div>
+
+    <script src="valida.js"></script>
+    
+</body>
+</html>

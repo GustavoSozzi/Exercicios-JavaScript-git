@@ -1,0 +1,25 @@
+*{margin: 0; padding: 150;}
+
+
+nav li{
+    display: inline-block;
+}
+
+.menu{
+    background-color: rgb(162, 148, 254);
+    list-style: none;
+    border: 1px solid #c0c0c0;
+    float: left;
+}
+
+.menu li{
+    position:relative;
+    float:left;
+    border-right:1px solid #c0c0c0;
+}
+
+.menu li a{color: #333; text-decoration: none; padding: 5px 10px; display: block;}
+
+form{
+    display: block;
+}

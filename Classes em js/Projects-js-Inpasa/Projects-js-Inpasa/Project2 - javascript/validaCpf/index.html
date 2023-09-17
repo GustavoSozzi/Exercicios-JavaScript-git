@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div></div>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Fale conosco</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <form name="meu_form" id="form">
+        <div>
+            <h1>Entre com seus dados</h1>
+
+            <input type="text"
+            id="nomeid"
+            placeholder="nome"
+            required = "required"
+            name = "nome">
+            <label for="nome">Nome</label>
+
+            <input type="text"
+            id="idadeid"
+            placeholder="idade"
+            required="required"
+            name="idade">
+            <label for="idade">Idade</label>
+
+            <input type="text"
+            id="emailid"
+            placeholder="email"
+            required = "required"
+            name = "email">
+            <label for="email">Email</label>
+
+            <input type="text"
+            id="cpfid"
+            placeholder="cpf"
+            required = "required"
+            name = "Cpf">
+            <label for="Cpf">CPF</label>
+
+            <textarea placeholder="Deixe sua opniao"></textarea>
+
+            <input type="submit" class="enviar" onclick="enviar();" value="Enviar" id="meuInput">
+        </form>
+        </div>
+    </header>
+
+    <script src="main.js"></script>   
+</body>
+</html>

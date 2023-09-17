@@ -1,0 +1,24 @@
+body{
+    font-family: monospace;
+    background-color: aquamarine; 
+    color: black
+}
+
+.title{
+    color: blue;
+    font: 60px;
+}
+
+.list-item{
+    margin-bottom: 10px;
+}
+
+input{
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.add-task-button{
+    height: 52px;
+    color: blue;
+}
